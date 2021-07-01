@@ -1,0 +1,48 @@
+.nav {
+  display: block;
+  width: 100%;
+}
+
+.search {
+  width: 30%;
+  margin-left: 35%;
+  font-size: 15px;
+  padding: 20px;
+  outline: none;
+  transition: 0.3s;
+  color: black;
+  border: 2px solid rgb(177, 177, 177);
+}
+
+.opt {
+  font-size: 40px;
+  text-align: center;
+}
+
+.search:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 10px 2px dodgerblue;
+  border-radius: 10px;
+}
+
+.allImg {
+  width: 200px;
+  height: 200px;
+  padding: 20px 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .search {
+    margin: 0;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .allImg {
+    margin: 0;
+    padding: 5px 2px;
+    width: 100%;
+  }
+}
